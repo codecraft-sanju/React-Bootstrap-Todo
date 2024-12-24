@@ -1,11 +1,24 @@
-
-input{
-    width:100%;
+.todo-container {
+    max-width: 600px;
+    margin: 50px auto;
+    font-family: Arial, sans-serif;
 }
 
-.kg-row{
-    margin:10px 5px;
+.kg-row {
+    margin: 10px 0;
 }
-.kg-button{
-    min-width:80px;
+
+button {
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+
+
+.col-6 {
+    word-wrap: break-word;
 }
